@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+.item{
+     width: auto;
+     height: 50px ;
+     background: rgb(241, 241, 243) ;      
+}
+.menu_bar{
+    margin-right: 10px;
+}
+#logo{
+     /* padding-top: 20px; */
+     width: auto;
+    height: 50px; 
+    margin-left: 90px;
+    margin-right: 180px;
+    display: inline-block;
+}
+.item > a ,img{   
+    font-size: 14px;
+    display: inline-block;
+    word-spacing: 15px;
+    text-decoration: none;
+    margin-top: -23px;
+}
+.first_pic{
+    background-repeat: no-repeat;
+    width: 1333px;
+    height: auto;
+    margin: 0px auto;
+}
+.first_text{
+    width: 700px;
+    text-align: center;
+    font-size: 14px;
+    margin-top:  100px;
+    margin-bottom: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: bold;
+}
+.second_pic_div{
+      width: auto;
+      height: auto;
+    margin-left:  200px;
+}
+.second_pic{
+    border-radius: 10px;
+    width: 447px;
+    height: 242px;
+    
+}
+.Apartaments > p{
+    text-align:left;
+    font-size: 32px;
+    font-weight: bold;    
+}
+.Apartaments{
+    margin-top: -240px;
+    margin-left: 650px;
+    margin-right: 100px;
+    text-align:left;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.button{
+    background-color: rgb(255,208, 120);
+    border-radius: 15px;
+    border: 1px;
+    width: 100px;
+    height: 35px;
+    font-weight: bold;
+    font-size: 12px;
+    
+    
+
+}
+.button:hover{
+    opacity: 0.7s;
+    background-color: rgba(255, 208, 120, 0.582);
+}
+.Houses{
+    margin-top: 160px;
+    text-align:left;
+    font-size: 16px;
+    font-weight: bold;
+    width: 559px;
+    height: 303px;
+}
+.Houses > p{
+    text-align:left;
+    font-size: 32px;
+    font-weight: bold; 
+
+}
+.button1{
+    background-color: rgb(255,208, 120);
+    border-radius: 15px;
+    border: 1px;
+    width: 100px;
+    height: 35px;
+    font-weight: bold;
+    font-size: 12px;  
+      
+}
+.button1:hover{
+    opacity: 0.7s;
+    background-color: rgba(255, 208, 120, 0.582);
+}
+.thirth_pic{
+    margin-top: -450px;
+    margin-left: 600px;
+    width: 80%;
+    height: 80%;
+    border-radius: 10px;
+}
+.forth_pic_div{
+    width: auto;
+    height: auto;
+  margin-left:  0px;
+}
+.forth_pic{
+  border-radius: 10px;
+  width: 447px;
+  height: 242px;
+}
+.Office > p{
+  text-align:left;
+  font-size: 32px;
+  font-weight: bold;    
+}
+.Office{
+  margin-top: -240px;
+  margin-left: 650px;
+  margin-right: 100px;
+  text-align:left;
+  font-size: 16px;
+  font-weight: bold;
+}
+.button2{
+    background-color: rgb(255,208, 120);
+    border-radius: 15px;
+    border: 1px;
+    width: 100px;
+    height: 35px;
+    font-weight: bold;
+    font-size: 12px;
+    
+}
+.button2:hover{
+    opacity: 0.7s;
+    background-color: rgba(255, 208, 120, 0.582);
+}
+.footer{
+    margin-left: -200px;
+    width: 1333px;
+    height: 300px ;
+    background: rgb(241, 241, 243) ;
+    margin-top: 100px;
+}
+.logo_1{
+    margin-left: 200px;
+    margin-top: 50px;
+}
+
+.pa{
+    margin-left: 210px;
+    margin-top: 0px;
+    word-spacing: 20px;
+}
+
+.first_ul{
+    list-style: none;
+    
+}
+.second_ul{
+    list-style: none;
+}
+.thirth_ul{
+    list-style: none;
+}
+.uls_div{
+    font-size: 13px;
+    display: flex;
+    margin-left: 155px;
+}
+.fa {  
+    padding: 10px;
+    font-size: 2px;
+    width: 10px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 100%;
+    list-style: none;
+    margin-right: 10px;
+}
+.fa:hover {
+    opacity: 0.7;
+  }
+.fa-facebook {
+    margin-left: 450px;
+    background: rgb(135,139,152);
+    color: white;
+  }
+.fa-twitter {
+    background: rgb(135,139,152);
+    color: white;
+  }
+  .fa-linkedin {
+    background: rgb(135,139,152);
+    color: white;
+  }
+  .fa-instagram {
+    background: rgb(135,139,152);
+    color: white;
+  }
+  .fa-youtube {
+    background: rgb(135,139,152);
+    color: white;
+  }
+  .fa-pinterest {
+    background: rgb(135,139,152);
+    color: white;
+  }
+  .©{
+    margin-left: 450px;
+    word-spacing: 4px;
+  }
+  
