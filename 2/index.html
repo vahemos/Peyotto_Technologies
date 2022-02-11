@@ -62,7 +62,7 @@
         <ul class="right_ul">
           <li><a href="">For Rent</a></li>
           <li><a href="">For Sale</a></li>
-          <li>
+          <li class="cnox">
             <select class="currency">
               <option value="USD">USD</option>
               <option value="AMD">AMD</option>
@@ -128,135 +128,42 @@
       </div>
 
       <!-- 1 img start -->
-
-      <div class="img_1">
-        <div>
-          <img src="images/1.jpg" alt="1_image" class="first_pic" />
+    <div class="border">
+        <div class="img-div">
+          <img src="images/1.jpg" alt="1_image"/>
         </div>
-
+          
+        
         <div class="text">
-          <h1>Bayron</h1>
-          <h2>Yerevan/Center</h2>
-          <div class="uls">
-            <ul>
+          <h1>Bayron<span>Yerevan/Center</span></h1><br>
+          
+           
+            <ul class="uls">
               <li class="for_li one">Fetures</li>
               <li class="for_li">3 Bedrooms</li>
               <li class="for_li">5/3 Floor</li>
               <li class="for_li">200 sqm</li>
               <li class="for_li">New Building</li>
             </ul>
-            <ul>
+            <ul class="uls">
               <li class="for_li two">Monthly</li>
               <li class="for_li three">2.900 USD</li>
             </ul>
-            <ul>
+            <ul class="uls">
               <li class="for_li fore">Code:<i>RCEA3248</i></li>
               <li class="for_li five">Updated:<i>14.06.2021</i></li>
             </ul>
+            
+       
+        </div>
             <div small_button>
               <button class="rent_button">RENT</button>
             </div>
-          </div>
-        </div>
-      </div>
+    </div>
+        
+    
+      
 
-      <!-- 2 img -->
-
-      <div class="img_2">
-        <div>
-          <img src="images/2.jpg" alt="2_image" class="first_pic" />
-        </div>
-
-        <div class="text">
-          <h1>Teryan</h1>
-          <h2>Yerevan/Center</h2>
-          <!-- </div> -->
-          <div class="uls">
-            <ul>
-              <li class="for_li one">Fetures</li>
-              <li class="for_li">3 Bedrooms</li>
-              <li class="for_li">5/3 Floor</li>
-              <li class="for_li">200 sqm</li>
-              <li class="for_li">New Building</li>
-            </ul>
-            <ul>
-              <li class="for_li two">Monthly</li>
-              <li class="for_li three">1.200 USD</li>
-            </ul>
-            <ul>
-              <li class="for_li fore">Code:<i>RCEA3248</i></li>
-              <li class="for_li five">Updated:<i>14.06.2021</i></li>
-            </ul>
-            <div small_button>
-              <button class="rent_button">RENT</button>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <!-- 3 img -->
-      <div class="img_3">
-        <div>
-          <img src="images/3.jpg" alt="3_image" class="first_pic" />
-        </div>
-
-        <div class="text">
-          <h1>Amiryan</h1>
-          <h2>Yerevan/Center</h2>
-          <div class="uls">
-            <ul>
-              <li class="for_li one">Fetures</li>
-              <li class="for_li">3 Bedrooms</li>
-              <li class="for_li">5/3 Floor</li>
-              <li class="for_li">200 sqm</li>
-              <li class="for_li">New Building</li>
-            </ul>
-            <ul>
-              <li class="for_li two">Monthly</li>
-              <li class="for_li three">4.300 USD</li>
-            </ul>
-            <ul>
-              <li class="for_li fore">Code:<i>RCEA 3248</i></li>
-              <li class="for_li five">Updated:<i>14.06.2021</i></li>
-            </ul>
-            <div small_button>
-              <button class="rent_button">RENT</button>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <!-- 4 img -->
-      <div class="img_4">
-        <div>
-          <img src="images/4.jpg" alt="4_image" class="first_pic" />
-        </div>
-        <div class="text">
-          <h1>Abovyan</h1>
-          <h2>Yerevan/Center</h2>
-
-          <div class="uls">
-            <ul>
-                <li class="for_li one">Fetures</li>
-                <li class="for_li">3 Bedrooms</li>
-                <li class="for_li">5/3 Floor</li>
-                <li class="for_li">200 sqm</li>
-                <li class="for_li">New Building</li>
-            </ul>
-            <ul>
-                <li class="for_li two">Monthly</li>
-                <li class="for_li three">1.500 USD</li>
-            </ul>
-            <ul>
-                <li class="for_li fore">Code:<i>RCEA 3248</i></li>
-                <li class="for_li five">Updated:<i>14.06.2021</i></li>
-            </ul>
-            <div small_button>
-                <button class="rent_button">RENT</button>
-            </div>
-          </div>
-        </div>
-      </div>
     </main>
     
     <!-- Footer -->
@@ -295,5 +202,97 @@
     </footer>
   </body>
 </html>
+
+
+
+<!-- .first_pic {
+  margin: 0 auto;
+  width: 80%;
+  height: 100%;
+  display: flex; 
+  box-shadow: 0 0 0 5px rgb(245, 245, 245);
+  border: 1px solid rgb(245, 245, 245);
+  border-radius: 8px;
+  justify-content:space-around;
+}
+.first_pic {
+  margin-top: 60px;
+  
+}
+
+.first_pic img {
+  
+  margin: 10px;
+  width: 50%;
+  border-radius: 15px;
+}
+
+h1 {
+  font-size: 20;
+  display: inline;
+  /* margin-right: 6px; */
+}
+h2 {
+  font-size: 19;
+  display: inline;
+  font-weight: 500;
+}
+.uls {
+  width: 100%;
+  /* height: 100%; */
+  display: flex;
+  justify-content: space-between
+}
+.for_li {
+  list-style: none;
+  /* align-items: center; */
+  
+}
+.one {
+  font-weight: bold;
+  /* margin-bottom: 10px;
+  margin-right: 100px; */
+}
+.two {
+  font-weight: bold;
+  /* margin-bottom: 10px;
+  margin-right: 100px; */
+}
+.three {
+  color: #33d185;
+  font-weight: bold;
+}
+.fore {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.five {
+  font-weight: bold;
+}
+
+li {
+  font-size: 14px;
+  font-weight: 500;
+}
+.rent_button {
+  background-color: rgb(255, 208, 120);
+  margin-top: 90px;
+  /* margin-left: -40px; */
+  /* margin-bottom: 60px; */
+  border: 0px;
+  width: 85px;
+  height: 45px;
+  border-radius: 50px;
+}
+.rent_button:hover {
+  transition: 0.7s;
+  background-color: rgb(207, 150, 43);
+}
+.text {display: flex;
+  width: 60%;
+  margin-top: 20px;
+  padding-right: 60px;
+  justify-content: space-around;
+} -->
 
       
