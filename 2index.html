@@ -11,57 +11,35 @@
   <body>
     <header class="header">
       <div class="logo">
-        <a href="../1 task/1index.html"><img src="images/logo.png" alt="logo" /></a>
+        <a href="1index.html"><img src="images/logo.png" alt="logo" /></a>
       </div>
       <div class="menu">
         <ul class="menu_bar">
-          <li>
-            <a href="" class="link">HOME</a>
-          </li>
-          <li>
-            <a href="" class="link">REAL ESTATE</a>
-          </li>
-          <li>
-            <a href="" class="link">OUR SERVICES</a>
-          </li>
-          <li>
-            <a href="" class="link">CONTACT US</a>
-          </li>
-          <li>
-            <a href="" class="link">ABOUT US</a>
-          </li>
-          <li>
-            <a href="" class="link">GUEST BOOK</a>
-          </li>
-          <li>
-            <a href="" class="link">FAQ</a>
-          </li>
-          <li>
-            <a href="" class="link">ARMENIA</a>
-          </li>
-          <li>
-            <a href="" class="link"
-              ><img src="images/Star 1.png" alt="star"
-            /></a>
-          </li>
-          <li>
-            <a href="" class="link"> USD</a>
-          </li>
-        </ul>
+          <li class="item_1"><a href="" class="link">HOME</a></li>
+          <li class="item_2"><a href="" class="link">REAL ESTATE</a></li>
+          <li class="item_3"><a href="" class="link">OUR SERVICES</a></li>
+          <li class="item_4"><a href="" class="link">CONTACT US</a></li>
+          <li class="item_5"><a href="" class="link">ABOUT US</a></li>
+          <li class="item_6"><a href="" class="link">GUEST BOOK</a></li>  
+          <li class="item_7"><a href="" class="link">FAQ</a></li>
+          <li class="item_8"><a href="" class="link">ARMENIA</a></li>
+          <li class="item_9"><a href="" class="link"><img src="images/Star 1.png" alt="star"/></a> </li>  
+          <li class="item_10"><a href="" class="link item_2"> USD</a></li>
+        </ul>  
       </div>
     </header>
     <nav menu class="nav">
       <div class="left">
         <ul class="left_ul">
-          <li><a href="">Apartments</a></li>
-          <li><a href="">Hauses</a></li>
-          <li><a href="">Commercial</a></li>
+          <li ><a href="" id="underline">Apartments</a></li>
+          <li><a href="" class="underline">Hauses</a></li>
+          <li><a href="" class="underline">Commercial</a></li>
         </ul>
       </div>
       <div class="right">
         <ul class="right_ul">
-          <li><a href="">For Rent</a></li>
-          <li><a href="">For Sale</a></li>
+          <li><a href="" id="underline">For Rent</a></li>
+          <li><a href="" class="underline">For Sale</a></li>
           <li>
             <select class="currency">
               <option value="USD">USD</option>
@@ -72,50 +50,50 @@
         </ul>
       </div>
     </nav>
+    <!-- Main -->
     <main class="main">
       <div class="selects">
-        <div>
-          <p>Renting</p>
-          <select>
+        <div class="label_1">
+          <label for="select">Renting</label>
+          <select id="select" class="select">
             <option value="">Monthly</option>
             <option value="">Daily</option>
             <option value="">Yearly</option>
           </select>
-          <p>Price</p>
-          <input type="number"  min="100" max="10000" placeholder="$100" step="100" class="price1">
+          <label for="input">Price</label>
+          <input id="input" type="number"  min="100" max="10000" placeholder="$100" step="100" class="price1">
         
         </div>
-        <div>
-          <p>City</p>
-          <select>
+        <div class="label_1">
+          <label for="select">City</label>
+          <select id="select" class="select">
             <option value="">Yerevan</option>
             <option value="">Vanadzor</option>
             <option value="">Gyumri</option>
           </select>
-          <br />
           <input type="number" min="100" max="10000" placeholder="$100" step="100" class="price2">
         </div>
-        <div>
-          <p>Region</p>
-          <select>
+        <div class="label_1">
+          <label for="select">Region</label>
+          <select id="select" class="select">
             <option selected>Select</option>
             <option value="">Lori</option>
             <option value="">Shirak</option>
             <option value="">Ararat</option>
           </select>
-          <p>Code</p>
+          <label>Code</label>
           <div class="code">RCEA3248</div>
         </div>
-        <div>
-          <p>Rooms</p>
-          <select>
+        <div class="label_1">
+          <label for="select">Rooms</label>
+          <select id="select" class="select">
             <option selected>Select</option>
             <option value="">1</option>
             <option value="">2</option>
             <option value="">3</option>
           </select>
-          <p>Layout</p>
-          <select>
+          <label for="select">Layout</label>
+          <select id="select" class="select">
             <option selected>Select</option>
             <option value="">Center</option>
             <option value="">In Other Solar System &#128512</option>
@@ -128,17 +106,17 @@
       </div>
 
       <!-- 1 img start -->
-
-      <div class="img_1">
-        <div>
-          <img src="images/1.jpg" alt="1_image" class="first_pic" />
+    <div class="section">
+      <div class="img">
+        <div class="first_pic">
+          <img src="images/1.jpg" alt="1_image"  />
         </div>
 
         <div class="text">
           <h1>Bayron</h1>
           <h2>Yerevan/Center</h2>
           <div class="uls">
-            <ul>
+            <ul >
               <li class="for_li one">Fetures</li>
               <li class="for_li">3 Bedrooms</li>
               <li class="for_li">5/3 Floor</li>
@@ -162,15 +140,15 @@
 
       <!-- 2 img -->
 
-      <div class="img_2">
-        <div>
-          <img src="images/2.jpg" alt="2_image" class="first_pic" />
+      <div class="img">
+        <div class="first_pic">
+          <img src="images/2.jpg" alt="2_image"  />
         </div>
 
         <div class="text">
           <h1>Teryan</h1>
           <h2>Yerevan/Center</h2>
-          <!-- </div> -->
+          
           <div class="uls">
             <ul>
               <li class="for_li one">Fetures</li>
@@ -195,9 +173,9 @@
       </div>
 
       <!-- 3 img -->
-      <div class="img_3">
-        <div>
-          <img src="images/3.jpg" alt="3_image" class="first_pic" />
+      <div class="img">
+        <div class="first_pic">
+          <img src="images/3.jpg" alt="3_image"/>
         </div>
 
         <div class="text">
@@ -227,9 +205,9 @@
       </div>
 
       <!-- 4 img -->
-      <div class="img_4">
-        <div>
-          <img src="images/4.jpg" alt="4_image" class="first_pic" />
+      <div class="img">
+        <div class="first_pic">
+          <img src="images/4.jpg" alt="4_image"  />
         </div>
         <div class="text">
           <h1>Abovyan</h1>
@@ -257,14 +235,14 @@
           </div>
         </div>
       </div>
-    </main>
+    </div>   
+</main>
     
     <!-- Footer -->
-    <footer >
-      <div class="footer">
-        <div>
-            <img src="images/logo.png" alt="logo" class="logo_1" />
-             <h6 class="pa">Professional Approach</h6>
+    <footer class="footer">
+        <div class="logo_1">
+            <img src="images/logo.png" alt="logo"/>
+            <h6 class="pa">Professional Approach</h6>
         </div>
         <div class="uls_div">
           <ul class="first_ul">
@@ -282,7 +260,9 @@
           <li><b>About Us</b></li>
           <li><b>Armenia</b></li>
         </ul>
-        <div>
+        
+      </div>
+     <div class="icon">
           <a href="https://www.facebook.com" class="fa fa-facebook"></a>
           <a href="#" class="fa fa-twitter"></a>
           <a href="#" class="fa fa-linkedin"></a>
@@ -290,8 +270,9 @@
           <a href="#" class="fa fa-youtube"></a>
           <a href="#" class="fa fa-pinterest"></a>
           <h5 class="©">All rights reserved © 2021 Elate Real Estate</h5>
+
         </div>
-      </div>
+      
     </footer>
   </body>
 </html>
