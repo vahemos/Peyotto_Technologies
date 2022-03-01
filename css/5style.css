@@ -12,8 +12,7 @@ body {
 .header {
   margin: 0 auto;
   width: 1349px;
-  
-  
+
   /* height: 55px; */
   display: flex;
   background-color: rgb(241, 241, 253);
@@ -69,8 +68,8 @@ body {
 
   /* background-color: rgb(243, 177, 177); */
 }
-h1::after{
-  content: ' / RCEA3248';
+h1::after {
+  content: " / RCEA3248";
   font-size: 19px;
   opacity: 0.8;
 }
@@ -105,39 +104,38 @@ h4 {
   border-radius: 15px;
   position: relative;
 }
-.arrow1{
-  transform:rotate(270deg);
+.arrow1 {
+  transform: rotate(270deg);
   position: absolute;
-  align-self:flex-end;
-  top: 450px
+  align-self: flex-end;
+  top: 450px;
 }
-.arrow1 img{
+.arrow1 img {
   width: 35px;
 }
-.arrow2{
-  transform:rotate(90deg);
+.arrow2 {
+  transform: rotate(90deg);
   position: absolute;
-  align-self:flex-start;
-  top: 450px
+  align-self: flex-start;
+  top: 450px;
 }
-.arrow2 img{
+.arrow2 img {
   width: 35px;
 }
 .small_imges_div {
   margin: 0 auto;
-  width:933px;
-  margin-top: 5px;  
+  width: 933px;
+  margin-top: 5px;
   display: flex;
   justify-content: space-between;
   column-gap: 5px;
 }
-.img img{
+.img img {
   margin: 0 auto;
-  width:177px ;
+  width: 177px;
   /* flex-grow: 1; */
   /* height: auto; */
-  
-  
+
   /* width:5px; */
   border-radius: 15px;
 }
@@ -154,6 +152,11 @@ select {
   outline: none;
   margin-top: 15px;
   font-size: large;
+  width: 80px;
+}
+.select2 {
+ 
+  border-bottom: 3px solid rgb(255, 208, 120);
 }
 .border {
   /* background-color: blue; */
@@ -164,11 +167,11 @@ select {
 
   box-shadow: 0 0 10px 7px rgba(245, 245, 245);
 }
-/* .map{
+.video {
   display: flex;
   justify-content: center;
   margin-top: 30px;
-} */
+}
 
 .uls {
   display: flex;
@@ -188,13 +191,10 @@ section {
   width: 70%;
   margin: 0 auto;
   margin-top: 100px;
-  
 }
 .section {
-    
   display: flex;
   justify-content: space-between;
-  
 }
 .button {
   background-color: rgb(255, 208, 120);
@@ -207,29 +207,23 @@ section {
   /* text-decoration: none; */
   /* list-style: none; */
   /* text-align:center; */
-  
-  
 }
-.button >a{
-  font-weight:bold;
+.button > a {
+  font-weight: bold;
   width: 180px;
   height: 45px;
   position: absolute;
   display: block;
-  top:6px;
+  top: 6px;
   left: 15px;
   font-size: 12px;
   text-decoration: none;
   color: inherit;
   /* outline: 0; */
-  
- 
 }
-.button a::before{
- 
-content: url("../images/icon.png");
-padding-right: 10px;
-
+.button a::before {
+  content: url("../images/icon.png");
+  padding-right: 10px;
 }
 button:hover {
   color: rgb(0, 0, 0);
@@ -255,10 +249,6 @@ h5 {
   color: #33d185;
 }
 
-
-
-
-
 /* Footer */
 .footer {
   /* margin: 0 auto; */
@@ -280,7 +270,7 @@ h5 {
 }
 
 .uls_div {
-  margin-left: 160px;
+  margin-left: 180px;
   font-size: 13px;
   width: 35%;
   display: flex;
