@@ -10,25 +10,27 @@
   </head>
   <body>
     <header class="header">
-      <div class="logo">
-        <a href="1index.html"><img src="images/logo.png" alt="logo" /></a>
+      <div id="logo">
+        <img src="images/logo.png" alt="logo" id="logo" />
       </div>
       <div class="menu">
-        <ul class="menu_bar">
-          <li class="item_1"><a href="" class="link">HOME</a></li>
-          <li class="item_2"><a href="" class="link">REAL ESTATE</a></li>
-          <li class="item_3"><a href="" class="link">OUR SERVICES</a></li>
-          <li class="item_4"><a href="" class="link">CONTACT US</a></li>
-          <li class="item_5"><a href="" class="link">ABOUT US</a></li>
-          <li class="item_6"><a href="" class="link">GUEST BOOK</a></li>  
-          <li class="item_7"><a href="" class="link">FAQ</a></li>
-          <li class="item_8"><a href="" class="link">ARMENIA</a></li>
-          <li class="item_9"><a href="" class="link"><img src="images/Star 1.png" alt="star"/></a> </li>  
-          <li class="item_10"><a href="" class="link item_2"> USD</a></li>
-        </ul>  
+        <ul class="menu_ul">
+          <li><a href="#" class="menu_bar">HOME</a></li>
+          <li><a href="#" class="menu_bar">REAL ESTATE</a></li>
+          <li><a href="#" class="menu_bar">OUR SERVICES</a></li>
+          <li><a href="#" class="menu_bar">CONTACT US</a></li>
+          <li><a href="#" class="menu_bar">ABOUT US</a></li>
+          <li><a href="#" class="menu_bar">GUEST BOOK</a></li>
+          <li><a href="#" class="menu_bar">FAQ</a></li>
+          <li><a href="#" class="menu_bar">Armenia</a></li>
+          <li><img src="images/Star 1.png" alt="star" /></li>
+          <li><a href="#" class="menu_bar">USD</a></li>
+        </ul>
       </div>
     </header>
-    <nav menu class="nav">
+    <!-- Main -->
+    <div class="main">
+    <nav  class="nav">
       <div class="left">
         <ul class="left_ul">
           <li ><a href="" id="underline">Apartments</a></li>
@@ -43,71 +45,94 @@
           <li>
             <select class="currency">
               <option value="USD">USD</option>
-              <option value="AMD">AMD</option>
+              <option value="AMD">AMD</option>     
               <option value="Eur">EUR</option>
             </select>
           </li>
         </ul>
       </div>
     </nav>
-    <!-- Main -->
-    <div class="main">
-      <div class="selects">
-        <div class="label_1">
-          <label for="select">Renting</label>
-          <select id="select" class="select">
+      <div class="big_div">
+      <div class="selects_div">
+        <div class="row 1">
+          <div class="colume">
+          <label for="">Renting</label>
+          <select name="" id="">
             <option value="">Monthly</option>
             <option value="">Daily</option>
             <option value="">Yearly</option>
           </select>
-          <label for="input">Price</label>
-          <input id="input" type="number"  min="100" max="10000" placeholder="$100" step="100" class="price1">
-        
-        </div>
-        <div class="label_1">
-          <label for="select">City</label>
-          <select id="select" class="select">
-            <option value="">Yerevan</option>
-            <option value="">Vanadzor</option>
-            <option value="">Gyumri</option>
-          </select>
-          <input type="number" min="100" max="10000" placeholder="$100" step="100" class="price2">
-        </div>
-        <div class="label_1">
-          <label for="select">Region</label>
-          <select id="select" class="select">
-            <option selected>Select</option>
-            <option value="">Lori</option>
-            <option value="">Shirak</option>
-            <option value="">Ararat</option>
-          </select>
-          <label>Code</label>
-          <div class="code">RCEA3248</div>
-        </div>
-        <div class="label_1">
-          <label for="select">Rooms</label>
-          <select id="select" class="select">
-            <option selected>Select</option>
-            <option value="">1</option>
-            <option value="">2</option>
-            <option value="">3</option>
-          </select>
-          <label for="select">Layout</label>
-          <select id="select" class="select">
-            <option selected>Select</option>
-            <option value="">Center</option>
-            <option value="">In Other Solar System &#128512</option>
-            <option value="">At Home</option>
-          </select>
-        </div>
-        <div>
-          <button class="search_button">SEARCH</button>
+          </div>
+          <div class="colume">
+            <label for="">Cite</label>
+            <select name="" id="">
+              <option value="">Yerevan</option>
+              <option value="">Gyumri</option>
+              <option value="">Vanadzor</option>
+            </select>
+          </div>
+          <div class="colume"><label for="">Region</label>
+            <select name="" id="">
+              <option value="" selected>Select</option>
+              <option value="" >Lori</option>
+              <option value="">Shirak</option>
+              <option value="">Yerevan</option>
+            </select>
+          </div>
+          <div class="colume">
+            <label for="">Rooms</label>
+            <select name="" id="">
+              <option value="" selected>Select</option>
+              <option value="">1</option>
+              <option value="">2</option>
+              <option value="">3</option>
+            </select>
+          </div>
+          <div >
+            <button class="search_button">SEARCH</button>
+          </div>
+        </div>   
+        <div class="row 2">
+          <div class="colume">
+            <label for="">Price</label>
+            <select name="" id="">
+              <option value="">100</option>
+              <option value=""></option>
+              <option value=""></option>
+            </select>
+            </div>
+            <div class="colume">
+              <label for=""></label>
+              <select name="" id="">
+                <option value="">100</option>
+                <option value=""></option>
+                <option value=""></option>
+              </select>
+            </div>
+            <div class="colume"><label for="">Code</label>
+              <select name="" id="">
+                <option value="">RCEA3248</option>
+                <option value=""></option>
+                <option value=""></option>
+              </select>
+            </div>
+            <div class="colume">
+              <label for="">Layout</label>
+              <select name="" id="">
+                <option value="" selected>Select</option>
+                <option value="">In Other Solar System &#128512</option>
+                <option value="">Home</option>
+              </select>
+            </div>
+            <div class="empty"></div>
         </div>
       </div>
+    </div>
+    
 
       <!-- 1 img start -->
-    <div class="section">
-      <div class="img">
+    <div class="conteiner">
+      <div class="section">
         <div class="first_pic">
           <img src="images/1.jpg" alt="1_image"  />
         </div>
@@ -132,15 +157,16 @@
               <li class="for_li five">Updated:</li>
             </ul>
             <div small_button>
-              <button class="rent_button">RENT</button>
+              <a href="/3index.html"><button class="rent_button">RENT</button></a>
             </div>
           </div>
         </div>
-      </div>
+    
+    </div>
 
       <!-- 2 img -->
 
-      <div class="img">
+      <div class="section">
         <div class="first_pic">
           <img src="images/2.jpg" alt="2_image"  />
         </div>
@@ -171,7 +197,7 @@
       </div>
 
       <!-- 3 img -->
-      <div class="img">
+      <div class="section">
         <div class="first_pic">
           <img src="images/3.jpg" alt="3_image"/>
         </div>
@@ -202,7 +228,7 @@
       </div>
 
       <!-- 4 img -->
-      <div class="img">
+      <div class="section">
         <div class="first_pic">
           <img src="images/4.jpg" alt="4_image"  />
         </div>
@@ -230,45 +256,56 @@
           </div>
         </div>
       </div>
-    </div>   
-</դ>
+      
+    </div> 
+    </div> 
+  
     
     <!-- Footer -->
     <footer class="footer">
-        <div class="logo_1">
-            <img src="images/logo.png" alt="logo"/>
-            <h6 class="pa">Professional Approach</h6>
-        </div>
-        <div class="uls_div">
-          <ul class="first_ul">
-            <li class="tel">Tel:</li>
-            <li class="mob">Mob:</li>
-            <li class="email">Email:</li>
-        </ul>
-        <ul class="second_ul">
-          <li>Home</li>
-          <li>Real Estate</li>
-          <li>Our Services</li>
-        </ul>
-        <ul class="thirth_ul">
-          <li>Contact Us</li>
-          <li>About Us</b></li>
-          <li>Armenia</li>
-        </ul>
-        
+      <div class="content">
+          <div class="footer_logo">
+              <div >
+                  <img src="images/logo.png" alt="logo"/>
+              </div>
+          </div>
+          <div class="table-media">  
+          <div class="table">
+              <div class="info-bar">
+              <ul>
+                  <li class="bold">Tel: <p class="grey">37410530083</p> </li>
+                  <li class="bold">Mob: <p class="grey">37477040446</p> </li>
+                  <li class="bold">Email: <p class="grey">info@elate.am</p> </li>
+              </ul> 
+          </div>
+      <div class="info-bar">     
+              <ul class="hide">
+                  <li>Home</li>
+                  <li>Real Estate</li>
+                  <li>Our Services</li>
+              </ul>
+          </div>
+      <div>      
+              <ul class="hide">
+                  <li>Contact Us</b></li>
+                  <li>About Us</b></li>
+                  <li>Armenia</li>
+              </ul>
+          </div>
+          </div>
+          <div class="social_media">
+              <a href="#" class="fa fa-facebook"></a>
+              <a href="#" class="fa fa-twitter"></a>
+              <a href="#" class="fa fa-linkedin"></a>
+              <a href="#" class="fa fa-instagram"></a>
+              <a href="#" class="fa fa-youtube"></a>
+              <a href="#" class="fa fa-pinterest"></a>
+              <h5 class="©">All rights reserved © 2021 Elate Real Estate</h5>
+          </div>
       </div>
-     <div class="icon">
-          <a href="https://www.facebook.com" class="fa fa-facebook"></a>
-          <a href="#" class="fa fa-twitter"></a>
-          <a href="#" class="fa fa-linkedin"></a>
-          <a href="#" class="fa fa-instagram"></a>
-          <a href="#" class="fa fa-youtube"></a>
-          <a href="#" class="fa fa-pinterest"></a>
-          <h5 class="©">All rights reserved © 2021 Elate Real Estate</h5>
-
-        </div>
-      
-    </footer>
+      </div>  
+  </div>  
+  </footer>
   </body>
 </html>
 
