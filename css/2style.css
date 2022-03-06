@@ -22,8 +22,6 @@ body {
   display: flex;
   justify-content: space-between;
 }
-.menu_ul a {
-}
 
 @media screen and (max-width: 992px) {
   .menu_ul {
@@ -60,11 +58,11 @@ body {
 }
 .nav {
   margin: 0 auto;
-  width: 1000px;
+  /* width: 1066px; */
   display: flex;
   margin-top: 90px;
   justify-content: space-between;
-  
+
   align-items: baseline;
 }
 .left {
@@ -91,7 +89,6 @@ body {
   display: flex;
   list-style: none;
   justify-content: space-evenly;
- 
 }
 #underline {
   text-decoration: underline;
@@ -100,7 +97,6 @@ body {
   text-underline-offset: 10px;
   font-weight: bold;
   color: rgb(98, 103, 119);
-  
 }
 .underline {
   text-decoration: none;
@@ -130,48 +126,51 @@ body {
   text-underline-offset: 10px;
 }
 /* MAIN */
-/* First part */
 
 .selects_div {
   margin: 0 auto;
   margin-top: 45px;
-  width: 1000px;
+  width: 1066px;
   display: flex;
   flex-direction: column;
- 
-  /* position: relative; */
-  
+
 }
-.colume{
+.colume {
   display: flex;
   flex-direction: column;
 }
-.row{
+.row {
   display: flex;
   justify-content: space-between;
-  align-items:flex-end;
+  align-items: flex-end;
   margin-top: 15px;
 }
-.big_div{
+.big_div {
   display: flex;
 }
-.empty{
-  width:160px ;
+.empty {
+  width: 160px;
 }
-.colume select{
-appearance: none;
-outline: none;
+
+.colume select {
+  appearance: none;
+  outline: none;
 }
-.colume{
+.colume {
   position: relative;
 }
-.colume::after{
+.colume {cursor: pointer;}
+.colume::after {
   content: "\25bc";
   position: absolute;
   left: 120px;
   bottom: 15px;
   color: grey;
   font-size: 12px;
+}
+.not_dhow::after{
+  content: " ";
+  display: none;
 }
 
 @media screen and (max-width: 1000px) {
@@ -238,68 +237,61 @@ outline: none;
   background-color: rgb(207, 150, 43);
 }
 
-
 .conteiner {
   margin: 0 auto;
-  width: 1066px;
   margin-top: 90px;
+
   display: flex;
   flex-direction: column;
 }
 .section {
-  margin: 0, auto;
-  width: 1066px;
-  padding: 15px;
-  /* margin-left: 160px; */
+  margin-bottom: 35px;
   display: flex;
   justify-content: space-between;
-
   box-shadow: 0 0 5px 5px rgb(245, 245, 245);
-  /* border: 1px solid rgb(245, 245, 245); */
   border-radius: 8px;
-  margin-bottom: 50px;
+  padding: 15px;
 }
-@media screen and (max-width: 1000px) {
+/* @media screen and (max-width: 1000px) {
   .section {
     flex-direction: column;
   }
+} */
+.first_pic {
+  width: 50%;
+  text-align: center;
 }
 
 .first_pic img {
-  /* padding: 20px; */
   width: 450px;
   border-radius: 15px;
 }
 
 span {
-  /* margin-left: 25px; */
-  /* margin-top: 20px; */
   font-size: 24px;
   font-weight: bold;
   display: inline-block;
-  /* margin-right: 6px; */
+  
 }
 span::after {
   content: "Yerevan/Center";
   font-size: 20;
   opacity: 0.5;
 }
-h2 {
-  font-size: 12;
-  display: inline;
-  font-weight: 500;
-}
-.text {
-  width: 380px;
 
-  /* height: 100%; */
-  /* margin: px; */
+.text {
+  width: 580px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 }
 .uls {
-  /* width: 100%; */
-  margin-top: 25px;
   display: flex;
   justify-content: space-between;
+}
+.small_button {
+  margin-top: 70px;
 }
 .for_li {
   list-style: none;
@@ -308,12 +300,11 @@ h2 {
 .one {
   font-weight: bold;
   margin-bottom: 10px;
-  /* margin-right: 100px; */
+  
 }
 .two {
   font-weight: bold;
   margin-bottom: 10px;
-  /* margin-right: 100px; */
 }
 .three {
   color: #33d185;
@@ -347,15 +338,13 @@ li {
   width: 85px;
   height: 45px;
   border-radius: 50px;
-  margin-top: 90px;
+  /* margin-top: 90px;
   margin-left: -100px;
-  margin-bottom: 60px;
+  margin-bottom: 60px; */
 }
 .rent_button:hover {
   transition: 0.7s;
   background-color: rgb(207, 150, 43);
-}
-.text {
 }
 
 i {
@@ -386,8 +375,7 @@ i {
 .footer_logo {
   padding: 15px 0;
 }
-.footer_logo img {
-}
+
 @media screen and (max-width: 992px) {
   .logo_1 {
     margin-left: 0;
@@ -482,6 +470,4 @@ i {
   }
 }
 @media screen and (max-width: 992px) {
-  .© {
-  }
 }

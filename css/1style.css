@@ -22,9 +22,7 @@ body {
   display: flex;
   justify-content: space-between;
 }
-.menu_ul a{
-  
-}
+
 
 @media screen and (max-width: 992px) {
   .menu_ul {
@@ -80,7 +78,8 @@ body {
 }
 .first_text {
   margin: 0 auto;
-  width: 933px;
+  padding: 0 50px;
+  line-height: 2;
   margin-top: 100px;
   text-align: center;
   font-size: 14px;
