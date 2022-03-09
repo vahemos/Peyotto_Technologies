@@ -1,0 +1,78 @@
+
+.header{
+    background-color: rgb(241, 241, 253);
+}
+.navbar-nav a::after{
+    content: '';
+    display: block;
+    width: 100%;
+
+    background-color: rgb(27, 22, 16);
+    height: 1px;
+    transform: scale(0);
+    transition: all .3s;
+} 
+.navbar-nav a:hover::after{
+    transform: scale(1);
+}
+.title{
+    font-size: 30px;
+    font-family: initial;
+}
+ .item-action{
+    border-radius: 20px !important;
+    font-weight: 600 !important;
+    font-size: 16px !important;
+    line-height: 20px !important;
+    color: #282B36 !important;
+    width: 100px;
+ } 
+.gago img{
+    border-radius: 15px;
+    
+}
+.footer-elem{
+    display: block;
+    color: rgb(73, 70, 70);
+}
+span{
+    font-weight: 700;
+    color: rgb(41, 38, 38);
+}
+.footer{
+    background-color: rgb(241, 241, 249);
+}
+.fa {
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    list-style: none;
+  }
+  .fa:hover {
+    opacity: 0.7;
+  }
+  .fa-facebook {
+    background: rgb(135, 139, 152);
+    color: white;
+  }
+  .fa-twitter {
+    background: rgb(135, 139, 152);
+    color: white;
+  }
+  .fa-linkedin {
+    background: rgb(135, 139, 152);
+    color: white;
+  }
+  .fa-instagram {
+    background: rgb(135, 139, 152);
+    color: white;
+  }
+  .fa-youtube {
+    background: rgb(135, 139, 152);
+    color: white;
+  }
+  .fa-pinterest {
+    background: rgb(135, 139, 152);
+    color: white;
+  }

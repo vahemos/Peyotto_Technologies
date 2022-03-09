@@ -27,13 +27,16 @@ body {
   .menu_ul {
     display: flex;
     flex-direction: column;
+    text-align: center;
   }
+  
 }
 @media screen and (max-width: 768px) {
   .menu_ul {
     display: flex;
     flex-direction: column;
   }
+  
 }
 
 .menu_ul a {
@@ -48,6 +51,11 @@ body {
 #logo img {
   width: 130px;
 }
+@media screen and (max-width: 992px) {
+  #logo img {
+    padding: 0 15px;
+  }
+}
 .menu_ul a:hover {
   color: black;
 }
@@ -58,24 +66,26 @@ body {
 }
 .nav {
   margin: 0 auto;
-  /* width: 1066px; */
   display: flex;
   margin-top: 90px;
   justify-content: space-between;
-
   align-items: baseline;
 }
+@media screen and (max-width: 992px) {
+  .nav {
+    align-items: left;
+    padding-left: 15px;
+    flex-direction: column-reverse;
+  
+  }
+  
+}
+
 .left {
   width: 30%;
 }
 .right {
   width: 30%;
-}
-
-@media screen and (max-width: 800px) {
-  .nav {
-    flex-direction: column;
-  }
 }
 
 .left_ul {
@@ -90,6 +100,16 @@ body {
   list-style: none;
   justify-content: space-evenly;
 }
+@media screen and (max-width:992px) {
+  .right{
+    margin-bottom: 20px;
+    margin-left: -35px;
+    text-align: left;  
+  }
+  
+}
+
+
 #underline {
   text-decoration: underline;
   text-decoration-color: rgb(255, 208, 120);
@@ -107,7 +127,6 @@ body {
 .currency {
   background-color: transparent;
   border-color: rgb(98, 103, 119);
-  /* width: 90px; */
   height: 30px;
   border-radius: 50px;
   text-align: center;
@@ -126,15 +145,32 @@ body {
   text-underline-offset: 10px;
 }
 /* MAIN */
+.big_div {
+  width: 1066px;
+  align-items:center;
+  display: flex;
+}
 
 .selects_div {
   margin: 0 auto;
   margin-top: 45px;
-  width: 1066px;
+  width: 75%;
   display: flex;
   flex-direction: column;
+}
+@media screen and (max-width:992px) {
+.big_div{
+  flex-direction: column;
+}
+.row{
+ flex-direction: column;
 
 }
+.selects_div{
+  flex-direction: row; 
+}
+}
+
 .colume {
   display: flex;
   flex-direction: column;
@@ -145,11 +181,11 @@ body {
   align-items: flex-end;
   margin-top: 15px;
 }
-.big_div {
+
+.some{
+  width: 50%;
   display: flex;
-}
-.empty {
-  width: 160px;
+  justify-content: space-between;
 }
 
 .colume select {
@@ -159,7 +195,9 @@ body {
 .colume {
   position: relative;
 }
-.colume {cursor: pointer;}
+.colume {
+  cursor: pointer;
+}
 .colume::after {
   content: "\25bc";
   position: absolute;
@@ -168,16 +206,12 @@ body {
   color: grey;
   font-size: 12px;
 }
-.not_dhow::after{
+.not_show::after {
   content: " ";
   display: none;
 }
 
-@media screen and (max-width: 1000px) {
-  .selects_div {
-    flex-direction: column;
-  }
-}
+/*  */
 .label_1 {
   display: flex;
   flex-direction: column;
@@ -189,7 +223,7 @@ body {
   font-weight: bold;
   margin-bottom: 8px;
   padding-top: 8px;
-}
+} 
 .selects_div select {
   width: 160px;
   height: 45px;
@@ -225,10 +259,11 @@ body {
 }
 
 .search_button {
+  
   background-color: rgb(255, 208, 120);
-  margin-top: 33px;
+  /* margin-top: 33px; */
   border: 0px;
-  width: 160px;
+  width: 140px;
   height: 45px;
   border-radius: 50px;
 }
@@ -252,11 +287,12 @@ body {
   border-radius: 8px;
   padding: 15px;
 }
-/* @media screen and (max-width: 1000px) {
+ @media screen and (max-width: 992px) {
   .section {
+    width: 100%;
     flex-direction: column;
   }
-} */
+} 
 .first_pic {
   width: 50%;
   text-align: center;
@@ -271,7 +307,6 @@ span {
   font-size: 24px;
   font-weight: bold;
   display: inline-block;
-  
 }
 span::after {
   content: "Yerevan/Center";
@@ -300,7 +335,6 @@ span::after {
 .one {
   font-weight: bold;
   margin-bottom: 10px;
-  
 }
 .two {
   font-weight: bold;
@@ -338,9 +372,6 @@ li {
   width: 85px;
   height: 45px;
   border-radius: 50px;
-  /* margin-top: 90px;
-  margin-left: -100px;
-  margin-bottom: 60px; */
 }
 .rent_button:hover {
   transition: 0.7s;
@@ -386,7 +417,6 @@ i {
   justify-content: space-between;
 }
 .table {
-  /* position: absolute; */
   display: flex;
   justify-content: space-between;
   /* left: 95px; */
@@ -410,6 +440,14 @@ i {
     display: none;
   }
 }
+@media screen and (max-width:768){
+.table-media{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+}
+
 .hide > li {
   font-weight: 600;
 }
