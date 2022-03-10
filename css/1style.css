@@ -15,6 +15,12 @@ body {
   background: rgb(241, 241, 243);
   justify-content: space-evenly;
 }
+@media screen and (max-width: 992px) {
+  .header {
+    width: 100%;
+    margin: 0 auto;
+  }
+}
 .menu {
   width: 700px;
 }
@@ -100,6 +106,7 @@ body {
 }
 @media screen and (max-width: 992px) {
   .main {
+    align-items: center;
     padding: 0 15px;
     width: 100%;
     margin: 0 auto;
@@ -107,29 +114,18 @@ body {
 }
 @media screen and (max-width: 768px) {
   .main {
-    width: 100%;
+    padding: 0 15px;
+    align-items: center;
     margin: 0 auto;
-  }
-}
-@media screen and (max-width: 992px) {
-  .footer {
     width: 100%;
-    margin: 0 auto;
-  }
-}
-@media screen and (max-width: 992px) {
-  .header {
-    width: 100%;
-    margin: 0 auto;
+     
+   
   }
 }
 
-@media screen and (max-width: 768px) {
-  .footer {
-    width: 100%;
-    margin: 0 auto;
-  }
-}
+
+
+
 @media screen and (max-width: 768px) {
   .header {
     width: 100%;
@@ -153,13 +149,17 @@ body {
 @media screen and (max-width: 992px) {
   .section {
     flex-direction: column;
-    align-items: center;
-  }
+    
+    }
+    .info{
+      padding: 20px;
+    }
 }
 @media screen and (max-width: 768px) {
   .section {
-    align-items: flex-start;
-  }
+    flex-direction: column;   
+  };
+  
 }
 
 .pic img {
@@ -203,13 +203,21 @@ body {
   height: 250px;
   background: rgb(241, 241, 243);
 }
+
 @media screen and (max-width: 992px) {
   .footer {
     width: 100%;
-    padding-left: 25px;
+    margin: 0 auto;
+    padding: 25px;
   }
 }
 
+@media screen and (max-width: 768px) {
+  .footer {
+    width: 100%;
+    margin: 0 auto;
+  }
+}
 .content {
   margin: 0 auto;
   width: 1066px;
