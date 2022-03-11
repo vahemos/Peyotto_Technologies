@@ -138,10 +138,7 @@ h1 {
   border-radius: 10px;
 }
 @media screen and (max-width: 992px) {
-  .img-1,
-  .img-2 {
-    display: none;
-  }
+ 
   .big_img_div{
     width: 100%;
   }

@@ -29,14 +29,12 @@ body {
     flex-direction: column;
     text-align: center;
   }
-  
 }
 @media screen and (max-width: 768px) {
   .menu_ul {
     display: flex;
     flex-direction: column;
   }
-  
 }
 
 .menu_ul a {
@@ -73,12 +71,9 @@ body {
 }
 @media screen and (max-width: 992px) {
   .nav {
-    align-items: left;
     padding-left: 15px;
     flex-direction: column-reverse;
-  
   }
-  
 }
 
 .left {
@@ -100,15 +95,14 @@ body {
   list-style: none;
   justify-content: space-evenly;
 }
-@media screen and (max-width:992px) {
-  .right{
+@media screen and (max-width: 992px) {
+  .right {
     margin-bottom: 20px;
-    margin-left: -35px;
-    text-align: left;  
   }
-  
+  .right_ul {
+    justify-content: space-between;
+  }
 }
-
 
 #underline {
   text-decoration: underline;
@@ -147,26 +141,9 @@ body {
 /* MAIN */
 .big_div {
   width: 1066px;
-  align-items:center;
+  align-items: center;
   display: flex;
 }
-@media screen and (max-width: 992px) {
-  .big_div{
-    width: 100%;
-    
- 
-}
-.row{
-  margin-left: 50px;
-}
-.footer{
-  width: 100%;
-}
-.header{
-  width: 100%;
-}
-}
-
 .selects_div {
   margin: 0 auto;
   margin-top: 45px;
@@ -174,58 +151,31 @@ body {
   display: flex;
   flex-direction: column;
 }
-@media screen and (max-width:992px) {
-.big_div{
-  flex-direction: column;
-}
-.row{
- flex-direction: column;
+@media screen and (max-width: 992px) {
+  .big_div {
+    width: 100%;
+    flex-direction: column;
+  }
+  .main {
+    width: 100%;
+  }
+  .selects_div {
+    justify-content: center;
+    flex-direction: row;
+  }
+  .row {
+    padding: 30px;
+    flex-direction: column;
+  }
 
+  .search_button {
+    margin-top: 20px;
+    width: 400px !important;
+  }
+  .no-title {
+    margin-top: 30px;
+  } 
 }
-.selects_div{
-  justify-content: center;
-  margin: 0 auto;
-  /* width: 100%; */
-  flex-direction: row;
-  background-color:
-}
-.for-button{
-  width: 100%;
- text-align: center;
- 
-}
-.search_button{
-  margin: 0 auto;
-  margin-top: 20px;  
-  align-items: center;
-}
-.no-title{
-  margin-top: 35px;
-}
-.small_button{
-  margin-right: 150px;
-}
-.section{
-  width: 100%;
-  margin: 0 auto;
-  align-items: center;
-  
-}
-.container{
-  align-items:center;
-  width: 100%;
- 
-}
-.big_div{
-  width: 100%;
- 
-}
-.main{
-  width: 100%;
-}
-
-}
-
 .colume {
   display: flex;
   flex-direction: column;
@@ -237,11 +187,6 @@ body {
   margin-top: 15px;
 }
 
-.some{
-  width: 50%;
-  display: flex;
-  justify-content: space-between;
-}
 
 .colume select {
   appearance: none;
@@ -261,13 +206,12 @@ body {
   color: grey;
   font-size: 12px;
 }
-.not_show::after {
-  content: " ";
-  display: none;
-}
-
-/*  */
-.label_1 {
+.selects_div label {
+  font-size: 14px;
+  color: rgb(98, 103, 119);
+  font-weight: bold;
+  margin-bottom: 8px;
+  padding-top: 8px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -278,7 +222,7 @@ body {
   font-weight: bold;
   margin-bottom: 8px;
   padding-top: 8px;
-} 
+}
 .selects_div select {
   width: 160px;
   height: 45px;
@@ -313,7 +257,6 @@ body {
   opacity: 0.3;
 }
 .search_button {
-  
   background-color: rgb(255, 208, 120);
   /* margin-top: 33px; */
   border: 0px;
@@ -341,12 +284,20 @@ body {
   border-radius: 8px;
   padding: 15px;
 }
- @media screen and (max-width: 992px) {
+@media screen and (max-width:992px) {
   .section {
+    /* border:none; */
+    box-shadow: none;
     width: 100%;
     flex-direction: column;
+     align-items: center;
+   }
+  
+  .first_pic img{
+    max-width: 100%;
   }
-} 
+}
+
 .first_pic {
   width: 50%;
   text-align: center;
@@ -370,10 +321,19 @@ span::after {
 
 .text {
   width: 580px;
-
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+}
+@media screen and (max-width:992px) {
+  .text{
+    max-width: 50%;
+   
+
+  }
+  .uls{
+    justify-content: space-evenly;
+  }
 }
 .uls {
   display: flex;
@@ -494,12 +454,12 @@ i {
     display: none;
   }
 }
-@media screen and (max-width:768){
-.table-media{
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-}
+@media screen and (max-width: 768) {
+  .table-media {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
 }
 
 .hide > li {
