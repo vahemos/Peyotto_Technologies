@@ -118,7 +118,8 @@ color: grey;
   display: none;
 }
 .border{
-  border: 2px solid grey;
+  /* border: 2px solid grey; */
+  box-shadow: 0 0 7px 10px rgb(241, 241, 253);
 }
 .img img{
   width: 450px;
