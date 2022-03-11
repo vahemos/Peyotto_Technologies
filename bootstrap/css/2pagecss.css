@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap");
 body{
     font-family: "Montserrat", sans-serif;
-    font-weight: 600;
+    font-weight: 900;
 }
 .header{
     background-color: rgb(241, 241, 253);
@@ -116,6 +116,16 @@ color: grey;
 }
 .not_show::after{
   display: none;
+}
+.border{
+  border: 2px solid grey;
+}
+.img img{
+  width: 450px;
+  border-radius: 20px;
+}
+.title{
+  font-weight: 800;
 }
 
 /* footer */
