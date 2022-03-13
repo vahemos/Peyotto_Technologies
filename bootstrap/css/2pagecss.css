@@ -1,7 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap");
+
 body{
     font-family: "Montserrat", sans-serif;
-    font-weight: 900;
+    font-weight: bold;
+    font-size: 14px;
 }
 .header{
     background-color: rgb(241, 241, 253);
@@ -53,6 +55,9 @@ body{
 text-decoration: none;
 color: grey;
 }
+a:hover{
+  text-decoration: none;
+}
 .colume::after {
     content: "\25bc";
     position: absolute;
@@ -89,6 +94,7 @@ color: grey;
     border-color: rgb(229, 229, 238);
     color: rgb(98, 103, 119);
     padding-left: 15px;
+    font-weight: 900;
   }
 
  label {
@@ -118,7 +124,6 @@ color: grey;
   display: none;
 }
 .border{
-  /* border: 2px solid grey; */
   box-shadow: 0 0 7px 10px rgb(241, 241, 253);
 }
 .img img{
@@ -128,6 +133,47 @@ color: grey;
 .title{
   font-weight: 800;
 }
+.bold{
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+}
+.colored{
+  color:  #33D185;
+}
+
+ul>li{
+  list-style: none;
+color: rgb(102, 94, 94);
+}
+.direction{
+  font-size: 24px;
+  font-weight: 500;
+}
+
+
+.button {
+  background-color: rgb(255, 208, 120);
+  width: 70px;
+  height: 35px;
+  border-radius: 50px;
+  text-align: center;
+  line-height: 35px;
+  font-size: 15px;
+
+}
+.button:hover {
+  transition: 0.7s;
+  background-color: rgb(207, 150, 43);
+}
+.not-bold{
+  opacity: 0.7;
+}
+.address{
+  margin-left: 35px ;
+}
+
+
+
 
 /* footer */
 
@@ -176,3 +222,5 @@ span{
     background: rgb(135, 139, 152);
     color: white;
   }
+ 
+ 
