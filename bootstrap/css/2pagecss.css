@@ -116,8 +116,7 @@ a:hover{
   background-color: rgb(255, 208, 120);
   margin-top: 35px;
   border: 0px;
-  /* width: 140px; */
-  width: 100%;
+  width: 140px;
   height: 45px;
   border-radius: 50px;
   font-weight: 800;
