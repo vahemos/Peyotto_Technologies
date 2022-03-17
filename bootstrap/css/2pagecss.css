@@ -140,6 +140,7 @@ a:hover{
   box-shadow: 0 0 7px 10px rgb(241, 241, 253);
 }
 .pic{
+  
   border-radius: 20px;
   
 }
@@ -172,11 +173,10 @@ font-size: 20px;
 }
 .button {
   background-color: rgb(255, 208, 120);
-  width: 70px;
-  height: 35px;
+  padding: 5px 30px;
   border-radius: 50px;
   text-align: center;
-  line-height: 35px;
+  line-height: 30px;
   font-size: 15px;
 }
 .button:hover{
