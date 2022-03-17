@@ -78,10 +78,10 @@ body {
 }
 
 .left {
-  width: 30%;
+  width: 320px;
 }
 .right {
-  width: 30%;
+  width: 320px;
 }
 
 .left_ul {
@@ -138,6 +138,7 @@ body {
   text-decoration-color: rgb(255, 208, 120);
   text-decoration-thickness: 4px;
   text-underline-offset: 10px;
+  align-items: center;
 }
 /* MAIN */
 .big_div {
@@ -148,7 +149,7 @@ body {
 .selects_div {
   margin: 0 auto;
   margin-top: 45px;
-  width: 75%;
+  width: 800px;
   display: flex;
   flex-direction: column;
 }
