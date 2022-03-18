@@ -27,7 +27,7 @@
     color: #282B36 !important;
     width: 100px;
  } 
-.gago img{
+.border-radius img{
     border-radius: 15px;
     
 }
@@ -55,6 +55,7 @@ span{
   .fa-facebook {
     background: rgb(135, 139, 152);
     color: white;
+    width: 34px;
   }
   .fa-twitter {
     background: rgb(135, 139, 152);
@@ -76,4 +77,6 @@ span{
     background: rgb(135, 139, 152);
     color: white;
   }
- 
+  .rights{
+    font-size: 12px;
+  }

@@ -66,6 +66,7 @@ a:hover{
     color: grey;
     font-size: 12px;
   }
+
   .colume {
     position: relative;
   }
@@ -116,8 +117,7 @@ a:hover{
   background-color: rgb(255, 208, 120);
   margin-top: 35px;
   border: 0px;
-  width: 140px;
-  height: 45px;
+  padding: 12px 50px;
   border-radius: 50px;
   font-weight: 800;
 }
@@ -243,6 +243,7 @@ color: rgb(102, 94, 94);
 .footer-elem{
     display: block;
     color: rgb(73, 70, 70);
+    align-self:center 
 }
 .bold{
     font-weight: 900;

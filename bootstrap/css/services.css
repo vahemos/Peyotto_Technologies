@@ -14,6 +14,14 @@ span{
     font-weight: 700;
     color: rgb(41, 38, 38);
 }
+a{
+  text-decoration: none !important;
+}
+a:hover {
+  color: rgb(31, 28, 28);
+  text-decoration: none;
+  cursor: pointer;
+}
 .footer{
     background-color: rgb(241, 241, 249);
 }
@@ -23,6 +31,7 @@ span{
     text-decoration: none;
     border-radius: 50%;
     list-style: none;
+    margin-right: 4px;
   }
   .fa:hover {
     opacity: 0.7;
@@ -30,6 +39,7 @@ span{
   .fa-facebook {
     background: rgb(135, 139, 152);
     color: white;
+    width: 34px;
   }
   .fa-twitter {
     background: rgb(135, 139, 152);
@@ -50,4 +60,7 @@ span{
   .fa-pinterest {
     background: rgb(135, 139, 152);
     color: white;
+  }
+  .rights{
+    font-size: 13px;
   }

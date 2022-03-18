@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap");
+
+body {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  font-size: 13px;
+}
+.header {
+  background-color: rgb(241, 241, 253);
+}
+.navbar-nav a::after {
+  content: "";
+  display: block;
+  width: 100%;
+
+  background-color: rgb(27, 22, 16);
+  height: 1px;
+  transform: scale(0);
+  transition: all 0.3s;
+}
+.navbar-nav a:hover::after {
+  transform: scale(1);
+}
+.bold-text {
+  font-size: 25px;
+  font-weight: 800;
+}
+.span {
+  font-weight: 500;
+  color: rgb(87, 77, 77);
+  font-size: 20px;
+}
+.p{
+  font-size: 15px;
+  
+}
+.carousel-item>img{
+  border-radius: 20px;
+}
+
+.smal-imgs-div {
+  width: 100%;
+}
+
+.column img {
+  width: 100%;
+  border-radius: 15px;
+}
+.form-control {
+  display: inline;
+  width: 80px;
+  border: 0 !important;
+}
+a {
+  display: block;
+  text-decoration: none !important;
+  font-size: 13px;
+  color: rgb(107, 101, 101);
+}
+
+.bordred-section {
+  border: 3px solid rgb(179, 169, 169);
+  box-shadow: 0 0 10px 8px rgb(179, 169, 169);
+  padding: 30px 30px;
+}
+
+.footer-elem {
+  display: block;
+  color: rgb(73, 70, 70);
+}
+
+.footer {
+  background-color: rgb(241, 241, 249);
+}
+.fa {
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+  list-style: none;
+}
+.fa:hover {
+  opacity: 0.7;
+}
+.fa-facebook {
+  background: rgb(135, 139, 152);
+  color: white;
+}
+.fa-twitter {
+  background: rgb(135, 139, 152);
+  color: white;
+}
+.fa-linkedin {
+  background: rgb(135, 139, 152);
+  color: white;
+}
+.fa-instagram {
+  background: rgb(135, 139, 152);
+  color: white;
+}
+.fa-youtube {
+  background: rgb(135, 139, 152);
+  color: white;
+}
+.fa-pinterest {
+  background: rgb(135, 139, 152);
+  color: white;
+}
