@@ -26,6 +26,7 @@ body {
 
 @media screen and (max-width: 992px) {
   .menu_ul {
+    text-align: center;
     display: flex;
     flex-direction: column;
   }
@@ -33,12 +34,7 @@ body {
     width: 100%;
   }
 }
-@media screen and (max-width: 768px) {
-  .menu_ul {
-    display: flex;
-    flex-direction: column;
-  }
-}
+
 
 .menu_ul a {
   text-decoration: none;
@@ -61,11 +57,19 @@ body {
   width: 1066px;
   margin: 100px auto;
 }
+@media screen and (max-width: 992px) {
+.main{
+  width: 100%;
+}  
+}
+
 .topic {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 0 10px;
 }
+
 .addres {
   display: flex;
   flex-direction: column;
@@ -101,15 +105,21 @@ h1 {
   display: flex;
   flex-direction: column;
 }
-.big_img_div img {
+.big_img_div> img {
   width: 100%;
   border-radius: 15px;
+}
+@media screen and (max-width:992px){
+  .big_img_div> img{
+    padding: 0 5px;
+  }   
 }
 .big_img_div {
   position: relative;
 }
 .big_img_div::before {
   content: url("../images/arrow.jpg");
+  
   position: absolute;
   bottom: 280px;
   left: 20px;
@@ -126,33 +136,33 @@ h1 {
 .big_img_div:hover::before {
   opacity: 0.6;
 }
-
+@media screen and (max-width:992px) {
+  .big_img_div::before{
+    content: url("../images/arrow1.jpg");
+    display: none;
+  }
+  .big_img_div::after{
+    content: url("../images/arrow1.jpg");
+   display: none;
+  }
+}
 .small_imges_div {
   margin-top: 5px;
   display: flex;
   justify-content: space-between;
 }
+
 .img img {
-  margin: 0 auto;
   width: calc(1006px / 5);
   border-radius: 10px;
 }
 @media screen and (max-width: 992px) {
- 
-  .big_img_div{
+  
+  .img>img{
     width: 100%;
+    
+    padding: 0 3px;
   }
-  .big_img_div img {
-    max-width:100%;
-  }
-  .for_imges {
-    width: 100%;
-  }
- 
-  .section{
-max-width: 100%;
-  }
-
 }
 
 .selects {
@@ -193,9 +203,7 @@ margin-top: 15px;
 .for_imges{
   width: 100%;
 }
-.topic{
-  width: 100%;
-}
+
 }
 .uls {
   display: flex;
@@ -358,6 +366,7 @@ h5 {
 .fa-facebook {
   background: rgb(135, 139, 152);
   color: white;
+  width: 34px;
 }
 .fa-twitter {
   background: rgb(135, 139, 152);
@@ -384,6 +393,3 @@ h5 {
   .table-media {
     justify-content: flex-start;
   }
-}
-@media screen and (max-width: 992px) {
-}

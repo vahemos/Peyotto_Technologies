@@ -102,6 +102,7 @@ color: grey;
 }
 .fa:hover {
   opacity: 0.7;
+  color: blue;
 }
 .fa-facebook {
   background: rgb(135, 139, 152);

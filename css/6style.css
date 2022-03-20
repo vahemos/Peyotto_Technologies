@@ -28,14 +28,10 @@ body {
   .menu_ul {
     display: flex;
     flex-direction: column;
+    text-align: center;
   }
 }
-@media screen and (max-width: 768px) {
-  .menu_ul {
-    display: flex;
-    flex-direction: column;
-  }
-}
+
 
 .menu_ul a {
   text-decoration: none;
@@ -61,11 +57,16 @@ body {
   width:  100%;
   
 }
+@media screen and (max-width: 992px) {
+  .main{
+    width: 100%;
+  }  
+  }
 .pic img{
+  
   max-width: 100%;
 }
 .rowes{
-  
     margin: 0 auto;
     margin-top: 50px;
     margin-bottom: 50px;
@@ -77,15 +78,23 @@ body {
     padding: 0 40px;
    
 }
+
 .row{
-  
-  /* border: 2px solid blue; */
     width: 800px;
     display: flex;
     justify-content: space-around;
     margin-bottom: 50px;
 }
-
+@media screen and (max-width:992px) {
+  .row{
+    flex-direction: column;
+    width: 100%;
+  }
+  .title{
+    margin-top: 80px;
+  }
+  
+}
 .title{
   font-size: 30px;
   margin-bottom: 15px;
@@ -116,7 +125,12 @@ body {
   margin-left: 50px;
   
 }
-
+@media screen and (max-width:992px) {
+  .row3{
+    margin-left: 0px;
+  }
+  
+}
 /* Footer */
 /* Footer */
 .footer {
@@ -199,13 +213,16 @@ body {
   text-decoration: none;
   border-radius: 50%;
   list-style: none;
+  margin-right: 4px;
 }
 .fa:hover {
   opacity: 0.7;
+ 
 }
 .fa-facebook {
   background: rgb(135, 139, 152);
   color: white;
+  width: 34px;
 }
 .fa-twitter {
   background: rgb(135, 139, 152);
@@ -232,6 +249,7 @@ body {
   .table-media {
     justify-content: flex-start;
   }
-}
-@media screen and (max-width: 992px) {
+  .©{
+    font-size: 11px;
+  }
 }

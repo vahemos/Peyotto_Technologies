@@ -28,14 +28,10 @@ body {
   .menu_ul {
     display: flex;
     flex-direction: column;
+    text-align: center;
   }
 }
-@media screen and (max-width: 768px) {
-  .menu_ul {
-    display: flex;
-    flex-direction: column;
-  }
-}
+
 
 .menu_ul a {
   text-decoration: none;
@@ -58,6 +54,11 @@ body {
   width: 1066px;
   margin: 100px auto;
 }
+@media screen and (max-width: 992px) {
+  .main{
+    width: 100%;
+  }  
+  }
 .topic {
   display: flex;
   justify-content: space-between;
@@ -102,6 +103,13 @@ h1 {
   width: 100%;
   border-radius: 15px;
 }
+@media screen and (max-width:992px){
+  .big_img_div> img{
+    padding: 0 5px;
+  } 
+  
+}
+
 .big_img_div {
   position: relative;
 }
@@ -123,6 +131,16 @@ h1 {
 .big_img_div:hover::before{
   opacity:0.6;
 }
+@media screen and (max-width:992px) {
+  .big_img_div::before{
+    content: url("../images/arrow1.jpg");
+    display: none;
+  }
+  .big_img_div::after{
+    content: url("../images/arrow1.jpg");
+   display: none;
+  }
+}
 
 .small_imges_div {
   margin-top: 5px;
@@ -134,12 +152,25 @@ h1 {
   width: calc(1006px / 5);
   border-radius: 10px;
 }
-
+@media screen and (max-width: 992px) {
+  
+  .img>img{
+    width: 100%;
+    
+    padding: 0 3px;
+  }
+}
 .selects {
   display: flex;
   margin: 20px 0px;
 
 }
+@media screen and (max-width:992px) {
+  .map{
+    padding:0 5px ;
+  }
+}
+
 select {
   border: none;
   background-color: transparent;
@@ -149,6 +180,12 @@ select {
 }
 #Select1{
   border-bottom: 3px solid rgb(255, 208, 120);
+}
+@media screen and (max-width: 992px) {
+  .selects{
+    padding-left: 10px ;
+  }
+  
 }
 .uls_border {
   display: flex;
@@ -165,6 +202,23 @@ select {
 .some {
   display: flex;
   justify-content: space-between;
+}
+@media screen and (max-width:992px) {
+  .some{
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  .small_div{
+margin-top: 15px;
+
+  }
+.container{
+  width: 100%;
+}
+.for_imges{
+  width: 100%;
+}
+
 }
 .uls {
   display: flex;
@@ -191,53 +245,13 @@ select {
   justify-content: space-between;
   width: calc(1066px * 60 / 100);
 }
-.button {
-  background-color: rgb(255, 208, 120);
-  width: 180px;
-  height: 45px;
-  border-radius: 50px;
-  border: none;
-  position: relative;
-  margin-bottom: 15px;
-}
-.button > a {
-  text-align: center;
-  font-weight: bold;
-  width: 180px;
-  font-size: 13px;
-  padding-top: 15px;
-  display: block;
-  line-height: 1;
-  text-decoration: none;
-  color: inherit;
-}
-.button a::before {
-  content: url("../images/icon.png");
-  position: absolute;
 
-  padding-right: 10px;
-  top: 13px;
-  left: 8px;
-}
-button:hover {
-  color: rgb(0, 0, 0);
-  background-color: rgb(233, 179, 1);
-}
 
-.info {
-  padding: 15px 30px;
-}
 
-h5 {
-  line-height: 30px;
-  font-weight: bold;
-}
-.monthly_price > h4 {
-  font-weight: 900;
-}
-.monthly_price > h5 {
-  color: #33d185;
-}
+
+
+
+
 
 /* Footer */
 .footer {
@@ -264,6 +278,12 @@ h5 {
   padding: 15px 0;
 }
 
+@media screen and (max-width: 992px){
+  .footer_logo{
+    padding-left: 15px;
+  }
+}
+
 @media screen and (max-width: 992px) {
   .logo_1 {
     margin-left: 0;
@@ -280,8 +300,13 @@ h5 {
 .table ul {
   list-style: none;
 }
+h5 {
+  line-height: 30px;
+  font-weight: bold;
+}
 .© {
   padding-top: 10px;
+  font-size: 11px;
 }
 @media screen and (max-width: 992px) {
   .table {
@@ -308,6 +333,12 @@ h5 {
 .info-bar {
   margin-right: 80px;
 }
+@media screen and (max-width: 992px) {
+  .info-bar{
+    padding-left: 20px;
+  }
+  
+}
 .grey {
   display: inline;
   font-weight: 600 !important;
@@ -327,6 +358,7 @@ h5 {
 .fa-facebook {
   background: rgb(135, 139, 152);
   color: white;
+  width: 34px;
 }
 .fa-twitter {
   background: rgb(135, 139, 152);
@@ -353,6 +385,4 @@ h5 {
   .table-media {
     justify-content: flex-start;
   }
-}
-@media screen and (max-width: 992px) {
 }
